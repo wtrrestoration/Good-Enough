@@ -1,0 +1,22 @@
+good-enough-shipper skill — quick install for humans
+
+1. Unzip this whole folder.
+2. Copy the "good-enough-shipper" directory (the one containing SKILL.md) into your Grok skills folder.
+   - This is usually ~/.grok/skills/ or the equivalent persistent skills directory in your setup.
+3. Done. The skill activates automatically when it detects refinement loops, perfectionism, or "just one more tweak" patterns on documents, code, reports, creative work, or business tasks.
+
+What it does:
+- Forces a stop once the output meets every explicit requirement at a working level.
+- Caps iterations (default 3 cycles or 15 minutes).
+- Locks scope so the project actually ships instead of circling forever.
+- Adds one clear line when ready: "Good enough to ship. Ready for delivery."
+
+Trigger examples the agent recognizes:
+- "endless refinement"
+- "perfection loop"
+- "stop tweaking and ship"
+- or just describe the stuck project and it should kick in.
+
+No changes needed to the skill itself. Keep the folder clean.
+
+If the agent doesn't pick it up immediately, mention the skill name explicitly in your next message.
